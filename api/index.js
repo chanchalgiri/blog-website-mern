@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads',express.static(__dirname+ '/uploads'));
 
-mongoose.connect('mongodb+srv://chanchalgiri780:khiwGw4Y5BE2YQLD@cluster0.mar1cxl.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('');
 
 //registration page
 app.post('/register',async (req,res)=>{
